@@ -5,6 +5,10 @@
     padding-right: 15px;
 }
 
+.single {
+	padding-right: 40px;
+}
+
 .single__info {
 	color: #809fa4;
 	font-size: 14px;
@@ -62,6 +66,11 @@
 
 .gallery {
 	flex-shrink: 0;
+	
+	a {
+		outline-style: none;
+		outline: none;
+	}
 }
 
 .gallery__big {
@@ -71,4 +80,13 @@
 .gallery-mini-wrapper {
 	display: flex;
     justify-content: space-between;
+}
+
+.booking-form-wrapper {
+	margin-left: -30px;
+	
+	&:before {
+		content: "";
+		display: table;
+	}
 }
