@@ -38,6 +38,9 @@
 .header {
 	padding-top: 110px;
 	
+	a {
+		text-decoration: none;
+	}
 }
 
 .header__title {
@@ -46,6 +49,21 @@
 	font-weight: 800;
 	line-height: 1;
 	margin: 0 0 18px;
+}
+
+a.header__title-link {
+	display: inline-block;
+	text-decoration: none;
+	
+	&:hover {
+		text-decoration: none;
+		
+		.header__title {
+			text-decoration: none;
+    		transition: 0.2s ease-in;
+			color: #F5585C;
+		}
+	}
 }
 
 .header__subtitle {
