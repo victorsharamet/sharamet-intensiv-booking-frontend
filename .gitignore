@@ -13,6 +13,7 @@
 *.sublime-workspace
 node_modules/
 project-design-pics/
+feedback/
 .tmp/
 .idea
 
